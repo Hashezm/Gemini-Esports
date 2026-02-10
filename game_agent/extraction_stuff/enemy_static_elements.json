@@ -1,0 +1,28 @@
+{
+  "enemy_description": "King Slime, a giant semi-transparent blue slime boss with a golden crown on top and a ninja silhouette visible inside its body.",
+  "static_elements": [
+    {
+      "timestamp_seconds": 0.4,
+      "element_description": "The golden crown with red gemstones sitting on top of the blue slime.",
+      "why_static": "While the blue body of the slime squashes, stretches, and fades in transparency depending on the background, the crown remains a rigid, opaque sprite that sits atop the main body. Even though the entire enemy shrinks in scale as it loses health, the crown's design and relative position remain visually consistent and distinct.",
+      "why_solid": "The crown is fully opaque and obscures the background (trees, mountains, sky) behind it, unlike the gel body which is semi-transparent."
+    },
+    {
+      "timestamp_seconds": 0.4,
+      "element_description": "The large central red ruby embedded in the golden crown.",
+      "why_static": "This is a high-contrast, specific detail within the crown sprite. The lighting highlight on the gem remains consistent (top-left) throughout the fight, indicating the crown sprite does not flip horizontally even when the internal ninja silhouette does.",
+      "why_solid": "The ruby is a solid red color with a white highlight, completely unaffected by the background textures."
+    }
+  ],
+  "rotation_only_elements": [],
+  "recommended_extraction_frames": [
+    {
+      "timestamp_seconds": 1.0,
+      "reason": "The King Slime is at maximum size and in mid-air, providing a clear separation between the crown/body and the ground tiles, making for a clean extraction against the sky/mountain background."
+    },
+    {
+      "timestamp_seconds": 3.0,
+      "reason": "Another clear view of the boss at full scale with the crown clearly distinct against the mountain backdrop."
+    }
+  ]
+}

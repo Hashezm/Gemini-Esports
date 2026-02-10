@@ -1,0 +1,28 @@
+{
+  "enemy_description": "The Empress of Light is a large, glowing, fairy-themed boss with a humanoid upper body, a bulbous lower body, and massive, colorful, prismatic butterfly-like wings. She wears a prominent golden V-shaped crown.",
+  "static_elements": [
+    {
+      "timestamp_seconds": 3.533,
+      "element_description": "The golden, V-shaped headdress/crown and the pale face in the center. This specific component sits at the top of her central body.",
+      "why_static": "This part of the sprite is a rigid texture that does not animate frame-by-frame (no facial expressions or deforming). It remains identical across idle, hover, and casting states, only rotating and moving with the main body.",
+      "why_solid": "The head and crown are opaque pixel art elements that are always solid."
+    },
+    {
+      "timestamp_seconds": 3.533,
+      "element_description": "The central torso/bodice segment, colored pink and purple with a glowing core pattern, located directly below the head.",
+      "why_static": "The central column of the body (chest to waist) acts as a rigid anchor for the arms and wings. While the attached limbs move, this central texture remains consistent and non-deforming.",
+      "why_solid": "It is a solid, filled pixel art sprite segment."
+    }
+  ],
+  "rotation_only_elements": [],
+  "recommended_extraction_frames": [
+    {
+      "timestamp_seconds": 3.533,
+      "reason": "The boss is in a neutral hover state, upright, and not obscured by projectiles or attack effects, providing a clear view of the static head and torso elements."
+    },
+    {
+      "timestamp_seconds": 0.8,
+      "reason": "Another clear idle frame where the boss is upright and distinct from the background before beginning an attack cycle."
+    }
+  ]
+}

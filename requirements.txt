@@ -1,0 +1,22 @@
+# Core Gemini SDK
+google-genai
+
+# Computer vision & screen capture
+opencv-python
+numpy
+Pillow
+mss
+
+# Input automation (Windows)
+pydirectinput
+pyautogui
+pynput
+
+# Audio (for LiveAPI voice streaming)
+pyaudio
+
+# Environment
+python-dotenv
+
+# Vertex AI (optional, for LiveAPI experiments)
+google-cloud-aiplatform

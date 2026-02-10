@@ -1,0 +1,18 @@
+{
+  "enemy_description": "King Slime is a very large, semi-transparent blue gelatinous boss with a visible ninja trapped inside its center. It wears a distinct golden crown on top of its head.",
+  "static_elements": [
+    {
+      "timestamp_seconds": 1.067,
+      "element_description": "The golden crown sitting on top of the slime. It features a gold band with three pointed spikes; the central spike is the tallest and contains a large, square-cut red gem, while the two outer spikes have smaller green gems.",
+      "why_static": "Unlike the blue slime body which constantly squashes, stretches, and deforms during jumping and movement animations, the crown behaves as a rigid object attached to the top. It does not distort or animate frame-by-frame, maintaining its specific shape and upright orientation at all times.",
+      "why_solid": "The crown is pixel-art composed of opaque gold, red, and green pixels. Unlike the body, it has no transparency, meaning its visual appearance is not altered by the changing background behind it."
+    }
+  ],
+  "rotation_only_elements": [],
+  "recommended_extraction_frames": [
+    {
+      "timestamp_seconds": 1.067,
+      "reason": "At this timestamp, the King Slime is at the peak of a jump. This separates the static crown element from the noisy ground textures, placing it against a relatively clean blue sky background, which makes for easier isolation and bounding box creation."
+    }
+  ]
+}

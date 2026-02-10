@@ -1,0 +1,3 @@
+Subtasks:
+  1. Traverse the surface to the right to search for a cave opening. Jump periodically to clear small obstacles. - ['move_with_jump']
+  2. Stop moving and visually scan the ground for dark gaps or openings indicating a cave entrance. - ['wait']

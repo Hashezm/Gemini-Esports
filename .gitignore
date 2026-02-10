@@ -1,0 +1,52 @@
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+gem3hackathonvenv/
+gem3hackathon311/
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# Large binary files (videos)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Notebooks with embedded secrets
+my scripts/sending_video.ipynb
+
+# Test artifacts
+test_recording.mp4
+test_screenshot.png
+test_region.png
